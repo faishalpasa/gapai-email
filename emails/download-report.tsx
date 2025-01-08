@@ -32,7 +32,7 @@ const DownloadReport = () => {
               alt="cv"
               width="123"
               height="137"
-              className="absolute -bottom-10 left-0 z-10"
+              className="absolute -top-4 left-0 z-10"
             />
 
             <Img
