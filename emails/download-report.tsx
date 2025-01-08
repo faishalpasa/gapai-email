@@ -89,7 +89,7 @@ const DownloadReport = () => {
             </Text>
 
             <Button
-              href="/"
+              href="https://gapai.id/employer"
               className="bg-transparent border-solid border border-primary-500 text-dark-700 text-primary-500 text-base leading-[22px] font-medium px-6 py-2 rounded-lg mb-8"
             >
               Check Out Gapai
