@@ -10,6 +10,7 @@
   "dependencies": {
     "@react-email/components": "0.0.32",
     "react-dom": "19.0.0",
+    "react-email": "3.0.5",
     "react": "19.0.0"
   },
   "devDependencies": {
@@ -26,7 +27,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sonarjs": "^0.24.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "prettier": "3.2.5",
-    "react-email": "3.0.5"
+    "prettier": "3.2.5"
   }
 }
