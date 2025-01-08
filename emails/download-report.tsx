@@ -15,40 +15,43 @@ const baseUrl = 'https://storage.googleapis.com/gapai-prod/emails/white-paper';
 const DownloadReport = () => {
   return (
     <Layout>
-      <Container>
-        <Row className="bg-[#D4F7E7] p-6 overflow-hidden">
-          <Column>
-            <Text className="text-primary-600 text-[18px] leading-[24px] font-semibold m-0 mb-2">
+      <Container className="max-w-3xl">
+        <Row
+          className="bg-[#D4F7E7] p-0 overflow-hidden bg-no-repeat bg-contain relative"
+          style={{
+            backgroundImage: `url(${baseUrl}/quarter-circle.png)`,
+            backgroundPosition: 'right bottom',
+            backgroundSize: '147px'
+          }}
+        >
+          <Column className="p-6">
+            <Text className="mobile text-primary-600 text-[18px] leading-[24px] font-semibold m-0 mb-2">
               Global Workforce Solutions
             </Text>
-            <Text className="text-dark-700 text-base leading-[22px] font-medium m-0 max-w-[390px]">
+            <Text className="mobile text-dark-700 text-base leading-[22px] font-medium m-0 max-w-[390px]">
+              How Indonesian Blue-Collar Talent is Meeting International Labor
+              Demands
+            </Text>
+
+            <Text className="desktop text-primary-600 text-[28px] leading-[40px] font-semibold m-0 mb-2">
+              Global Workforce Solutions
+            </Text>
+            <Text className="desktop text-dark-700 text-[24px] leading-[30px] font-medium m-0 max-w-[390px]">
               How Indonesian Blue-Collar Talent is Meeting International Labor
               Demands
             </Text>
           </Column>
-          <Column className="relative w-[140px]">
+          <Column className="relative align-bottom pr-6 pt-6">
             <Img
               src={`${baseUrl}/cv.png`}
               alt="cv"
-              width="123"
-              height="137"
-              className="absolute -bottom-6 right-0 z-10 mobile"
+              className="mobile block h-full max-h-[137px] ml-auto"
             />
 
             <Img
               src={`${baseUrl}/cv.png`}
               alt="cv"
-              width="123"
-              height="137"
-              className="absolute -top-4 left-0 z-10 desktop"
-            />
-
-            <Img
-              src={`${baseUrl}/quarter-circle.png`}
-              alt="querter-cirle"
-              width="111"
-              height="111"
-              className="absolute -bottom-6 -right-6"
+              className="desktop block h-full max-h-[236px] ml-auto"
             />
           </Column>
         </Row>
