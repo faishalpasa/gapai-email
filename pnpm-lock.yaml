@@ -17,6 +17,9 @@ importers:
       react-dom:
         specifier: 19.0.0
         version: 19.0.0(react@19.0.0)
+      react-email:
+        specifier: 3.0.5
+        version: 3.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
     devDependencies:
       '@types/react':
         specifier: 19.0.1
@@ -60,9 +63,6 @@ importers:
       prettier:
         specifier: 3.2.5
         version: 3.2.5
-      react-email:
-        specifier: 3.0.5
-        version: 3.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
 
 packages:
 
