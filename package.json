@@ -1,5 +1,5 @@
 {
-  "name": "react-email-starter",
+  "name": "gapai-email",
   "version": "0.1.7",
   "private": true,
   "scripts": {
@@ -27,7 +27,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sonarjs": "^0.24.0",
     "eslint-plugin-storybook": "^0.8.0",
-    "next": "*",
     "prettier": "3.2.5"
   }
 }
