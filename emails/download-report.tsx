@@ -10,7 +10,7 @@ import * as React from 'react';
 
 import { Layout } from './static/components/Layout';
 
-const baseUrl = '/static/images';
+const baseUrl = 'https://storage.googleapis.com/gapai-prod/emails/white-paper';
 
 const DownloadReport = () => {
   return (
