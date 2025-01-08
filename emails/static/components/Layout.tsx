@@ -9,6 +9,32 @@ const styles = `
   * {
     font-family: 'Plus Jakarta Sans', sans-serif;
   }
+  @media only screen and (min-width: 576px) {
+    .mobile {
+      display: none !important;
+    }
+    .desktop {
+      display: block !important;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .mobile {
+      display: none !important;
+    }
+    .desktop {
+      display: block !important;
+    }
+  }
+
+  @media only screen and (max-width: 422px) {
+    .mobile {
+      display: block !important;
+    }
+    .desktop {
+      display: none !important;
+    }
+  }
 `;
 
 interface LayoutProps {
@@ -38,7 +64,7 @@ export const Layout = ({ children }: LayoutProps) => {
           }
         }}
       >
-        <Body className="mx-auto max-w-3xl">{children}</Body>
+        <Body className="mx-auto">{children}</Body>
       </Tailwind>
     </Html>
   );

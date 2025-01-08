@@ -32,7 +32,15 @@ const DownloadReport = () => {
               alt="cv"
               width="123"
               height="137"
-              className="absolute -top-4 left-0 z-10"
+              className="absolute -bottom-6 right-0 z-10 mobile"
+            />
+
+            <Img
+              src={`${baseUrl}/cv.png`}
+              alt="cv"
+              width="123"
+              height="137"
+              className="absolute -top-4 left-0 z-10 desktop"
             />
 
             <Img
@@ -47,7 +55,7 @@ const DownloadReport = () => {
       </Container>
 
       <Container>
-        <Row className="p-12">
+        <Row className="p-12 text-center">
           <Column>
             <Text className="text-dark-700 text-[18px] leading-[24px] font-semibold m-0 mb-8">
               Here&apos;s your link to the report
